@@ -1,0 +1,87 @@
+.order_summary {
+    margin-top: 100px;
+    a {
+        margin-left: 985px;
+        background-color: #0e8784;
+        color: #fefcf7;
+        padding: 15px 30px;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 25px;
+        text-decoration: none;
+        transition: 0.3s ease;
+        &:hover {
+          background-color: #66d2cf;
+        }
+        @media (max-width:$phone) {
+            margin-left: 20%;    
+        }
+        // @media (max-width: $tablet) {
+        //     margin-left: 20%;    
+        // }
+    }
+    .none {
+        margin-bottom: 50px;
+        margin-left: 440px;
+        background: #2C343E;
+        border-radius: 10px;
+        width: 730px;
+        height: 208px;
+        @media (max-width: $phone) {
+            margin-left: 0%; 
+            width: 328px;
+            height: 338px;  
+        }
+        // @media (max-width: $tablet) {
+        //     margin-left: 0%; 
+        //     width: 328px;
+        //     height: 338px;  
+        // }
+        h2 {
+            padding-top: 27px;
+            margin-left: 64px;
+            @include Ffont;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+            @media (max-width: $phone) {
+                width: 172px;
+                height: 26px;
+                margin-left: 8%;
+                padding-top: 6%;
+            }
+            // @media (max-width: $tablet) {
+            //     width: 172px;
+            //     height: 26px;
+            //     margin-left: 8%;
+            //     padding-top: 6%;
+            // }
+        }
+
+        p {
+            margin-left: 64px;
+            width: 602px;
+            height: 120px;
+            @include Bfont;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 40px;
+            color: #FFFFFF;
+            @media (max-width: $phone) {
+                width: 279px;
+                height: 240px;
+                margin-left: 8%;
+            }
+            // @media (max-width: $tablet) {
+            //     width: 279px;
+            //     height: 240px;
+            //     margin-left: 8%;
+            // }
+        }
+    }
+}

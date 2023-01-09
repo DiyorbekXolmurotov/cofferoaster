@@ -1,0 +1,192 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.hammasi {
+    margin-top: 120px;
+    display: flex;
+    gap: 125px;
+    @media (max-width: $phone) {
+        display: block;
+        margin-top: 0%;
+    }
+    // @media (max-width: $tablet) {
+    //     display: block;
+    //     margin-top: 0%;
+    // }
+.dancen {
+    .drink_coffee {
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #83888F;
+    }
+    .jamp {
+        gap: 50px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+
+        @media (max-width: $phone) {
+            flex-direction: column;
+        }
+        // @media (max-width: $tablet) {
+        //     flex-direction: column;
+        // }
+        
+        .ded {
+            cursor: pointer;
+            background: #F4F1EB;
+            border-radius: 8px;
+            width: 228px;
+            height: 250px;
+            &:hover {
+                background-color: #FDD6BA;
+            }
+            
+            @media (max-width: $phone) {
+                width: 328px;
+                height: 140px;
+            }
+            // @media (max-width: $tablet) {
+            //     width: 328px;
+            //     height: 140px;
+            // }
+            
+            .meva {
+                cursor: pointer;
+                input[type="radio"]:checked + .meva {
+                    background-color: #0E8784;
+                }
+                h2 {
+                    margin-top: 50px;
+                    margin-left: 28px;
+                    font-family: 'Fraunces 9pt';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #333D4B;
+                    @media (max-width: $phone) {
+                        width: 163px;
+                        height: 32px;
+                        margin-top: 5%;
+                    }
+                    // @media (max-width: $tablet) {
+                    //     width: 163px;
+                    //     height: 32px;
+                    //     margin-top: 5%;
+                    // }
+                }
+                p {
+                    margin-left: 28px;
+                    width: 172px;
+                    height: 48px;
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #333D4B;
+                    @media (max-width: $phone) {
+                        width: 278px;
+                        height: 52px;
+                    }
+                    // @media (max-width: $tablet) {
+                    //     width: 278px;
+                    //     height: 52px;
+                    // }
+                }
+            }
+           
+        }
+    }
+}
+
+.header {
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+    @media (max-width: $phone) {
+        align-items: none;
+        justify-content: none;
+        margin-top: 0;
+    }
+        // @media (max-width: $tablet) {
+        //     align-items: none;
+        //     justify-content: none;
+        //     margin-top: 0;
+        // }
+    .navbar {
+li {
+    list-style-type: none;
+    border-bottom: 1px solid #83888F;
+    padding: 24px;
+    mix-blend-mode: normal;
+    @media (max-width: $phone) {
+        list-style-type: none;
+        border-bottom: none;
+        padding: 0;
+        mix-blend-mode: none;
+    }
+    // @media (max-width: $tablet) {
+    //     list-style-type: none;
+    //     border-bottom: none;
+    //     padding: 0;
+    //     mix-blend-mode: none;
+    // }
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+
+    &:hover {
+        color:  #333D4B;
+    }
+    @media (max-width: $phone) {
+        text-decoration: none;
+        font-family: none;
+        font-style: none;
+        font-weight: none;
+        font-size: 0;
+        line-height: 0;
+        color: none;
+    
+        &:hover {
+            color: none;
+        }
+    }
+    // @media (max-width: $tablet) {
+    //     text-decoration: none;
+    //     font-family: none;
+    //     font-style: none;
+    //     font-weight: none;
+    //     font-size: 0;
+    //     line-height: 0;
+    //     color: none;
+    
+    //     &:hover {
+    //         color: none;
+    //     }
+    // }
+}
+}
+}
+}

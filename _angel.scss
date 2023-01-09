@@ -1,0 +1,169 @@
+.angel {
+    margin-top: 850px; 
+    @media (max-width:$phone) {
+        margin-top: 1000px;
+        margin-left: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    // @media (max-width: $tablet) {
+    //     margin-top: 1000px;
+    //     margin-left: 50px;
+    //     align-items: center;
+    //     justify-content: center;
+    // }
+    .how_it-works {
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        font-family: 'Fraunces 9pt';
+    }
+
+        .sourse {
+            margin-top: 100px;
+            display: flex;
+            gap: 125px;
+            @media (max-width:$phone) {
+                margin-left: 100px;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 15%;
+            }
+            // @media (max-width: $tablet) {
+            //     flex-direction: column;
+            //     align-items: center;
+            //     justify-content: center;
+            //     gap: 15%;
+            // }
+            .fil {
+                h2 {
+                    width: 272px;
+                    height: 36px;
+                    font-family: 'Fraunces 9pt';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 28px;
+                    line-height: 32px;
+                    color: #333D4B;
+                    @media (max-width:$phone) {
+                        width: 322px;
+                        height: 32px;
+                    }
+                    // @media (max-width: $tablet) {
+                    //     width: 322px;
+                    //     height: 32px;
+                    // }
+                }
+                p {
+                    width: 130px;
+                    height: 107px;
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #333D4B;
+                    @media (max-width:$phone) {
+                        width: 130px;
+                        height: 107px;
+                    }
+                    // @media (max-width: $tablet) {
+                    //     width: 130px;
+                    //     height: 107px;
+                    // }                    
+                }
+            }
+            .geg {
+                @media (max-width:$phone) {
+                    margin-bottom: 100px;
+                }
+                // @media (max-width: $tablet) {
+                //     margin-bottom: 100px;
+                // }
+                h2 {
+                    width: 255px;
+                    height: 36px;
+                    font-family: 'Fraunces 9pt';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 28px;
+                    line-height: 32px;
+                    color: #333D4B;
+                    @media (max-width:$phone) {
+                        width: 322px;
+                        height: 32px;
+                    }
+                    // @media (max-width: $tablet) {
+                    //     width: 322px;
+                    //     height: 32px;
+                    // }
+                }
+                p {
+                    width: 120px;
+                    height: 107px;
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: #333D4B;
+                    @media (max-width:$phone) {
+                        width: 130px;
+                        height: 107px;
+                    }
+                    // @media (max-width: $tablet) {
+                    //     width: 130px;
+                    //     height: 107px;
+                    // }                    
+                }
+            }
+            .deg {
+                @media (max-width:$phone) {
+                    margin-bottom: 50px;
+                }
+                // @media (max-width: $tablet) {
+                //     margin-bottom: 100px;
+                // }
+                h2 {
+                    width: 255px;
+                    height: 36px;
+                    font-family: 'Fraunces 9pt';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 28px;
+                    line-height: 32px;
+                    color: #333D4B;
+                    @media (max-width:$phone) {
+                        width: 322px;
+                        height: 32px;
+                    }
+                    // @media (max-width: $tablet) {
+                    //     width: 322px;
+                    //     height: 32px;
+                    // }
+                }
+                p {
+                    width: 120px;
+                    height: 107px;
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: #333D4B;
+                    @media (max-width:$phone) {
+                        width: 130px;
+                        height: 107px;
+                    }
+                    // @media (max-width: $tablet) {
+                    //     width: 130px;
+                    //     height: 107px;
+                    // }                    
+                }
+            }
+        }
+}

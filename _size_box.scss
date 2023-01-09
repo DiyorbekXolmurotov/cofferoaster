@@ -1,0 +1,102 @@
+.size_box {
+    position: relative;
+
+    .unperseyf {
+        top: 100px;
+        border-radius: 6px;
+        width: 1280px;
+        height: 474px;
+        background: #2C343E;
+        border-radius: 10px;
+        position: absolute;
+        
+        @media (max-width:$phone) {
+            width: 327px;
+            height: 509px;
+        }
+        // @media (max-width: $tablet) {
+        //     width: 327px;
+        //     height: 509px;
+        // }
+        h2 {
+            margin-left: 85px;
+            width: 517px;
+            height: 48px;
+            margin-top: 80px;
+            @include Ffont;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            text-align: center;
+            color: #FEFCF7;
+            @media (max-width:$phone) {
+                width: 279px;
+                height: 56px;
+                margin-bottom: 60px;
+                margin-left: 5%;
+                margin-top: 120px;
+            }
+            // @media (max-width: $tablet) {
+            //     margin-bottom: 120px;
+            //     margin-left: 0%;
+            // }
+        }
+
+        p {
+            margin-left: 85px;
+            width: 540px;
+            height: 130px;
+            @include Bfont;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            @media (max-width:$phone) {
+                width: 279px;
+                height: 226px;
+                margin-left: 30px;
+                @include Bfont;
+                text-align: center;
+                color: #FEFCF7;
+                mix-blend-mode: normal;
+                opacity: 0.8;
+            }
+            // @media (max-width: $tablet) {
+            //     width: 279px;
+            //     height: 125px;
+            //     margin-left: 30px;
+            //     @include Bfont;
+            //     text-align: center;
+            //     color: #FEFCF7;
+            //     mix-blend-mode: normal;
+            //     opacity: 0.8;
+            // }
+        }
+
+        .vido_box {
+            bottom: 100px;
+            position: absolute;
+            background-image: url(/image/Bitmap\ \(1\).svg);
+            background-repeat: no-repeat;
+            width: 445px;
+            height: 474px;
+            border-radius: 8px;
+            margin-left: 730px;
+            @media (max-width:$phone) {
+               margin-left: 6%;
+               width: 279px;
+               height: 156px;
+               margin-bottom: 340px;
+            }
+            // @media (max-width: $tablet) {
+            //     margin-left: 6%;
+            //     width: 279px;
+            //     height: 156px;
+            //     margin-bottom: 340px;
+            //  }
+        }
+    }
+}
